@@ -1,5 +1,9 @@
 let aboutSection = document.querySelector("#about");
 
+let aboutHeading = document.createElement("h1");
+aboutHeading.classList.add("page-heading");
+aboutHeading.textContent = "About Me";
+
 let aboutMe = document.createElement("div");
 aboutMe.classList.add("aboutMe");
 let aboutMeText = document.createElement("p");
@@ -20,6 +24,7 @@ aboutMeText.textContent =
     I near graduation I am now on the search for a full time software engineering position. Please \
     reach out via the contact form below so that we can set up an interview!";
 
+aboutMe.append(aboutHeading);
 aboutMe.append(selfie);
 aboutMe.append(aboutMeText);
 aboutSection.append(aboutMe);

@@ -46,7 +46,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
   padding-bottom: 50px;
   width: 300px;
 }
@@ -77,6 +76,27 @@ textarea {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   border-radius: 10px;
+}
+
+.page-heading {
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #c0fbd3;
+  margin-top: 20px;
+  text-align: center;
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-text {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
