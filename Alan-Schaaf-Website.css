@@ -1,12 +1,5 @@
 body {
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 0, 0),
-    rgb(0, 0, 255),
-    rgb(0, 0, 0),
-    rgb(0, 0, 255),
-    rgb(0, 0, 0)
-  );
+  background-color: #4fb06d !important;
 }
 
 .nav-flex-container {
@@ -17,7 +10,7 @@ body {
 
 .nav-item {
   text-decoration: none;
-  color: yellow;
+  color: rgb(0, 0, 0);
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 0 auto;
@@ -26,18 +19,43 @@ body {
 }
 
 .nav-item:hover {
-  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
 }
 
 #contact {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 400px;
+}
+
+.aboutMe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
+  padding-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.selfie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  #contact {
+    width: 700px;
+  }
 }
 
 @media (min-width: 1024px) {
+  #contact {
+    width: 1000px;
+  }
 }
