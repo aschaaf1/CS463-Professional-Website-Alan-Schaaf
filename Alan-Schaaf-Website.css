@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(0, 0, 255),
+    rgb(0, 0, 0),
+    rgb(0, 0, 255),
+    rgb(0, 0, 0)
+  );
+}
+
+.nav-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: yellow;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  font-size: 1.2em;
+}
+
+.nav-item:hover {
+  font-size: 1.5em;
+}
