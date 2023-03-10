@@ -7,6 +7,7 @@ let aboutSection = document.querySelector("#about");
 let aboutMe = document.createElement("div");
 aboutMe.classList.add("aboutMe");
 let aboutMeText = document.createElement("p");
+aboutMeText.classList.add("aboutMeText");
 let selfie = document.createElement("img");
 selfie.classList.add("selfie");
 selfie.src = "images/selfie.jpg";
