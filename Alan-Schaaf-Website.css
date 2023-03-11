@@ -65,6 +65,36 @@ body {
   padding-top: 30px;
 }
 
+.skill-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  background-color: rgba(129, 129, 129, 0.7);
+}
+
+.skill-heading {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 166, 0, 0.8);
+  width: 400px;
+}
+
+.skill-item {
+  display: block;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .aboutMe {
     width: 768px;
@@ -79,6 +109,13 @@ body {
   .nav-item {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .skill-container {
+    grid-template-columns: 1fr 1fr;
+    width: 768px;
+  }
+  .skill-heading {
+    width: 768px;
   }
 }
 
@@ -99,6 +136,13 @@ body {
     padding-left: 70px;
     padding-right: 70px;
   }
+  .skill-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1024px;
+  }
+  .skill-heading {
+    width: 1024px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -117,6 +161,13 @@ body {
   .nav-item {
     padding-left: 90px;
     padding-right: 90px;
+  }
+  .skill-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1400px;
+  }
+  .skill-heading {
+    width: 1400px;
   }
 }
 

@@ -1,8 +1,5 @@
 let aboutSection = document.querySelector("#about");
-
-// let aboutHeading = document.createElement("h1");
-// aboutHeading.classList.add("page-heading");
-// aboutHeading.textContent = "About Me";
+let skillSection = document.querySelector("#skill-section");
 
 let aboutMe = document.createElement("div");
 aboutMe.classList.add("aboutMe");
