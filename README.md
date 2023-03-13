@@ -5,5 +5,5 @@ Welcome to my website! This is a professional website that I created for my fina
 The background image used can be found here:
 https://pixabay.com/vectors/honeycomb-pattern-hexagon-design-34984/
 
-I referenced this tutorial to assist in creating my form:
+I referenced this website to assist in styling my form:
 https://www.w3schools.com/howto/howto_css_contact_form.asp
