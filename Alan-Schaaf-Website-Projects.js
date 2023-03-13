@@ -14,6 +14,12 @@ project1Text.classList.add("project-text");
 project1Text.textContent = "Chocan Database";
 project1.append(project1Text);
 
+let project1Desc = document.createElement("p");
+project1Desc.classList.add("project-desc");
+project1Desc.textContent =
+  "A provider end system developed in Java for Chocoholics Anonymous to run reports and bill members for services";
+project1.append(project1Desc);
+
 let project1Link = document.createElement("a");
 project1Link.classList.add("project-link");
 project1Link.href = "https://github.com/aschaaf1/chocan/tree/master/src";
@@ -36,6 +42,12 @@ let project2Text = document.createElement("h2");
 project2Text.classList.add("project-text");
 project2Text.textContent = "Optimuse Prime";
 project2.append(project2Text);
+
+let project2Desc = document.createElement("p");
+project2Desc.classList.add("project-desc");
+project2Desc.textContent =
+  "A multithreaded program developed in C that calculates prime numbers using the sieve of Eratosthenes";
+project2.append(project2Desc);
 
 let project2Link = document.createElement("a");
 project2Link.classList.add("project-link");
