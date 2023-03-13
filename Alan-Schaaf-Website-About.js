@@ -20,7 +20,7 @@ aboutMeText.textContent =
   up that will be released in the future. The primary languages I have used at Apex have been Java,\
    Go, and Javascript. I have loved my experience working as a software engineering intern, but as\
     I near graduation I am now on the search for a full time software engineering position. Please \
-    reach out via the contact form below so that we can set up an interview!";
+    reach out via the contact page so that we can set up an interview!";
 
 aboutMe.append(selfie);
 aboutMe.append(aboutMeText);
