@@ -60,7 +60,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 250px;
-  height: 312px;
+  height: 333px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -119,6 +119,7 @@ body {
 .project-image {
   display: block;
   width: 350px;
+  height: 216px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -208,7 +209,7 @@ body {
   }
   .selfie {
     width: 300px;
-    height: 375px;
+    height: 400px;
   }
   .aboutMeText {
     font-size: 1.2em;
@@ -229,6 +230,7 @@ body {
   }
   .project-image {
     width: 500px;
+    height: 309px;
   }
   .project-text {
     width: 500px;
@@ -242,7 +244,7 @@ body {
   }
   .selfie {
     width: 400px;
-    height: 500px;
+    height: 533px;
     margin-right: 20px;
   }
   .aboutMeText {
@@ -264,6 +266,7 @@ body {
   }
   .project-image {
     width: 600px;
+    height: 372px;
   }
   .project-text {
     width: 600px;
@@ -277,7 +280,7 @@ body {
   }
   .selfie {
     width: 500px;
-    height: 625px;
+    height: 666px;
     margin-right: 20px;
   }
   .aboutMeText {
@@ -299,6 +302,7 @@ body {
   }
   .project-image {
     width: 800px;
+    height: 496px;
   }
   .project-text {
     width: 800px;

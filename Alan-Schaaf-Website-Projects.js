@@ -33,7 +33,7 @@ project2.classList.add("project-block");
 
 let project2Image = document.createElement("img");
 project2Image.classList.add("project-image");
-project2Image.src = "images/prime.png";
+project2Image.src = "images/prime2.png";
 project2Image.alt =
   "Sample code from Optimus Prime, a program that calculates prime number, written in C.";
 project2.append(project2Image);
